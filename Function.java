@@ -188,7 +188,7 @@ public class Function extends JPanel {
         }
       }
       if(X3 != 0){
-        answer+= "Infinity";
+        answer= "Infinity";
       }
        if(X4!= 0){
         if(X4 < 0){
@@ -218,36 +218,36 @@ public class Function extends JPanel {
           answer= "" + C;
         }
         if(X1 != 0){
-          answer= "Negative Infinity";
+          answer= "-Infinity";
         }
          if(X2 != 0){
           if(X2 > 0){
             answer= "" + findymin();
           }
           if(X2 < 0){
-            answer= "Negative Infinity";
+            answer= "-Infinity";
           }
         }
         if(X3 != 0){
-          answer= "Negative Infinity";
+          answer= "-Infinity";
         }
          if(X4!= 0){
           if(X4 > 0){
            answer = "" +findymin();
          }
           else{
-            answer= "Negative Infinity";
+            answer= "Infinity";
           }
         }
        if(X5 != 0){
-              answer= "Negative Infinity";
+              answer= "-Infinity";
         }
           if(X6 != 0){
             if(X6 > 0){
             answer= "" + findymin();
           }
           else{
-            answer= "Negative Infinity";
+            answer= "-Infinity";
             }
           }
           Min = answer.toCharArray();
